@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250px;
+    text-emphasis: 300px;
+}
+
+
+.ghina {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.ghina .header {
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+
+.header .photo {
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.header .title {
+    flex-grow: 1;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+
+img {
+    width: 200px;
+    height: 235px;
+    border-radius: 30%;
+}
+
+.title {
+    font-weight: 600;
+
+}
+
+.system {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #000000;
+}
+
+.morocoo {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
